@@ -2,7 +2,7 @@
 
 to build development image on docker execute
 
-`docker build -t keving_frontend .`
+`docker build -t kevin_frontend .`
 
 to run dev docker container
 
