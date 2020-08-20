@@ -24,11 +24,11 @@ Notes:
 
 ## Docker
 
-to build development image on docker execute
+to build production image on docker execute
 
 `docker build -t kevin_frontend .`
 
-to run dev docker container
+to run production docker container
 
 `docker run -p 1337:80 -d kevin_frontend'
 
