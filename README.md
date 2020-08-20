@@ -1,10 +1,6 @@
 ## Task
 
-Program game:
-
-_X_|___|___ 
-___|_X_|___ 
-___|___| X
+Program game: tick-tack-toe
 
 Basic requirements: 
 
