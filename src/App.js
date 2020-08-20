@@ -38,6 +38,8 @@ function App() {
           alert(error.message);
           resetGame();
         });
+    } else {
+      resetGame();
     }
   }, []);
 

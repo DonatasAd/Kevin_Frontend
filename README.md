@@ -1,5 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Docker
 
+to build development image on docker execute
+
+`docker build -t keving_frontend .`
+
+to run dev docker container
+
+`docker run -p 1337:80 -d kevin_frontend'
+
+## Project contains two simple tests ./src/components/History.test.js
+
+
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
