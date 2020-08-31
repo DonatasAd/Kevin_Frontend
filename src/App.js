@@ -50,7 +50,12 @@ function App() {
     setPlayer(null);
     setWinner(null);
     // Start new game
-    fetch('http://localhost:3500/start-game')
+    fetch('http://localhost:3500/start-game', {
+      method: 'POST',
+      headers: new Headers({
+        'Content-Type': 'application/json',
+      }),
+    })
       .then(async (res) => {
         console.log(res);
         if (res.ok) {
